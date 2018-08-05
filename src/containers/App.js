@@ -49,6 +49,7 @@ export default class App extends Component {
     }
 
      Home = (props) => {
+        console.log(props);
         return(
             <div>
                 <header className="Header">

@@ -18,7 +18,7 @@ class Login extends Component {
 
     onSubmit(event){
         event.preventDefault();
-        if (this.state.username === "jcbuendia" && this.state.password === "jcbuendia") {
+        if (this.state.username === "j" && this.state.password === "j") {
             this.setState({username: '', password: '', isLogged: true});
         }else{
             this.setState({username: '', password: '', isLogged: false});
